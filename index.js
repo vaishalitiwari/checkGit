@@ -6,6 +6,6 @@ app.get('/',(req,res)=>{
   res.send('Hey There !!');
 });
 
-app.listen(1234,()=>{
+app.listen(port,()=>{
   console.log(`server is up at port ${port}`);
 })
